@@ -56,7 +56,7 @@ public class BinarySearchTreeToGreaterSumTreeTest {
         preorder(expectedRoot, expectedPreorder);   // expected
 
         // compare pre-orders
-        Assertions.assertEquals(actualPreorder, expectedPreorder);
+        Assertions.assertEquals(expectedPreorder, actualPreorder);
     }
 
     void preorder(TreeNode root, ArrayList<Integer> arrayList) {

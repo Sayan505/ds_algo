@@ -1,5 +1,6 @@
 package org.ds_algo.leetcode.linked_list;
 
+
  public class ListNode {
      int val;
      ListNode next;

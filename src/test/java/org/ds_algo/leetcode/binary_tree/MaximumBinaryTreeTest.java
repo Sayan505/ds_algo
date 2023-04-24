@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Assertions;
 
 import java.util.ArrayList;
 
-
 class MaximumBinaryTreeTest {
     MaximumBinaryTree maximumBinaryTree;
 
@@ -38,7 +37,7 @@ class MaximumBinaryTreeTest {
         preorder(expectedRoot, expectedPreorder);   // expected
 
         // compare pre-orders
-        Assertions.assertEquals(actualPreorder, expectedPreorder);
+        Assertions.assertEquals(expectedPreorder, actualPreorder);
     }
 
     void preorder(TreeNode root, ArrayList<Integer> arrayList) {
@@ -49,4 +48,3 @@ class MaximumBinaryTreeTest {
         preorder(root.right, arrayList);
     }
 }
-

@@ -1,5 +1,6 @@
 package org.ds_algo.leetcode.binary_tree;
 
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Assertions;
@@ -38,7 +39,7 @@ public class FlattenBinaryTreeTest {
         preorder(expectedRoot, expectedPreorder);   // expected
 
         // compare pre-orders
-        Assertions.assertEquals(actualPreorder, expectedPreorder);
+        Assertions.assertEquals(expectedPreorder, actualPreorder);
     }
 
     void preorder(TreeNode root, ArrayList<Integer> arrayList) {

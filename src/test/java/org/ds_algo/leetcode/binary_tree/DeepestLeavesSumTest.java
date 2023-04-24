@@ -28,6 +28,6 @@ public class DeepestLeavesSumTest {
         int actualSum = deepestLeavesSum.deepestLeavesSum(root);
         int expectedSum = 15;
 
-        Assertions.assertEquals(actualSum, expectedSum);
+        Assertions.assertEquals(expectedSum, actualSum);
     }
 }
