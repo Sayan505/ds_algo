@@ -2,7 +2,6 @@ package org.ds_algo.leetcode.graph;
 
 
 import java.util.HashSet;
-import java.util.List;
 
 public class KeysAndRooms {
     public boolean canVisitAllRooms(int[][] rooms) {
@@ -13,7 +12,7 @@ public class KeysAndRooms {
         return visited.size() == rooms.length;
     }
 
-    void dfs(int[][] rooms,  HashSet<Integer> visited, int currRoom) {
+    void dfs(int[][] rooms, HashSet<Integer> visited, int currRoom) {
         // track visit
         visited.add(currRoom);
 
@@ -22,4 +21,3 @@ public class KeysAndRooms {
                 dfs(rooms, visited, child); // visit if not already visited
     }
 }
-

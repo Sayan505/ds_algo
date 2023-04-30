@@ -30,6 +30,4 @@ public class AllPathsFromSourceToTargetTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
-
 }
