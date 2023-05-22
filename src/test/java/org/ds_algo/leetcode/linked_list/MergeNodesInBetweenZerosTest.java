@@ -1,6 +1,7 @@
 package org.ds_algo.leetcode.linked_list;
 
 
+import org.ds_algo.leetcode.ListNode;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Assertions;

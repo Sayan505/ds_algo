@@ -1,6 +1,8 @@
 package org.ds_algo.leetcode.linked_list;
 
 
+import org.ds_algo.leetcode.ListNode;
+
 class MergeNodesInBetweenZeros {
     ListNode mergeNodes(ListNode head) {
         ListNode preNewHead = head;
